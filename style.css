@@ -30,3 +30,10 @@ img {
   background-color: #F5FFFA; /*Mint cream*/
   text-align: center;
 }
+
+p {
+  width: auto;
+  padding: 20px;
+  max-width: 100%;
+  height: auto;
+}
