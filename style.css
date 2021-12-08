@@ -1,3 +1,4 @@
+/*header background color set*/
 .header-background {
   background-color:#101010;
 }
@@ -15,17 +16,19 @@
   color: white;
   text-align: center;
 }
+/*Make image possible to be resized while maintaining proper dimensions */
 #proportionate-image {
   width: auto;
   text-align: center;
   padding: 20px;
 }
-
+/*set horizontal rule to half of it's width*/
 hr {
   width: 50%;
 }
 
-
+/*restrict paragraph box, set text to left side of box, automatically adjust
+height/margin, pad by 10 pixels, set font families*/
 p {
   width: 350px;
   text-align: left;
@@ -41,17 +44,17 @@ li {
   height: auto;
   margin: auto;; 
 }
-
+/*make the height of the image automatically scale with dimension change of width*/
 img {
   max-width: 100%;
   height: auto;
 }
-
+/*set mint cream color to main section background and center all elements inside*/
 .wrapper-main {
   background-color: #F5FFFA; /*Mint cream*/
   text-align: center;
 }
-
+/*set footer background to dark grey color*/
 #footer-background {
   background-color: darkgrey;
 }
@@ -65,20 +68,20 @@ img {
   margin: auto;
   padding: 10px; 
 }
-
+/*link color is blue*/
 a:link {
   color:blue;
 }
-
+/*when link is visited the color turns to dark blue*/
 a:visited {
   color: darkblue;
 }
-
+/*when link is hovered over, then color is blue and opacity reduced to 70%*/
 a:hover {
   color: blue;
   opacity: 70%;
 }
-
+/*When link is active it becomes a purple color*/
 a:active {
   color: purple;
 }
