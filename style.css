@@ -15,10 +15,31 @@
   color: white;
   text-align: center;
 }
-.proportionate-image {
+#proportionate-image {
   width: auto;
   text-align: center;
   padding: 20px;
+}
+
+hr {
+  color: red;
+  width: 50%;
+}
+
+
+p{
+  width: 350px;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+  font-family: serif,'Courier New', Courier, monospace;
+}
+
+li {
+  width: 350px;
+  height: auto;
+  margin: auto;
+  padding: 10px; 
 }
 
 img {
@@ -31,13 +52,22 @@ img {
   text-align: center;
 }
 
-p {
+/*p {
   width: auto;
-  padding: 20px;
+  padding: -10;
   max-width: 100%;
-  height: auto;
+ }*/
+
+#footer-background {
+  background-color: darkgrey;
 }
 
-.footer-background {
-  background-color: darkgrey;
+.copyright {
+  text-align: center;
+  font-family: cursive,'Courier New', Courier, monospace;
+  font-size: 10px;
+  width: 350px;
+  height: auto;
+  margin: auto;
+  padding: 10px; 
 }
