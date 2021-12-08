@@ -22,12 +22,11 @@
 }
 
 hr {
-  color: red;
   width: 50%;
 }
 
 
-p{
+p {
   width: 350px;
   height: auto;
   margin: auto;
@@ -38,8 +37,7 @@ p{
 li {
   width: 350px;
   height: auto;
-  margin: auto;
-  padding: 10px; 
+  margin: auto; 
 }
 
 img {
@@ -51,12 +49,6 @@ img {
   background-color: #F5FFFA; /*Mint cream*/
   text-align: center;
 }
-
-/*p {
-  width: auto;
-  padding: -10;
-  max-width: 100%;
- }*/
 
 #footer-background {
   background-color: darkgrey;
